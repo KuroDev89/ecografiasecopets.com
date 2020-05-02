@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.thanx_img {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.thanx-text {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 2;
+}
+
+.thanx-text h1 {
+  font-size: 8rem;
+  margin-bottom: 3rem;
+  font-family: 'Bangers', sans-serif;
+}
+
+.thanx-text h3 {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+
+.thanx-text .btn {
+  background: #9bbb59;
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 2rem;
+  border-radius: 80px;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  border: solid 4px #9bbb59;
+  padding: 0.5rem 1rem;
+  width: 250px;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background: transparent;
+  border: solid 4px #167ce9;
+  color: #fff;
+  background: #167ce9;
+}
+
+@media screen and (min-width: 360px) and (max-width: 414px) {
+  .thanx-text h1 {
+    font-size: 4rem;
+    margin-top: 20%;
+  }
+
+  .thanx-text h3 {
+    margin: 2rem;
+    font-size: 1.75rem;
+  }
+
+  .thanx-text .btn {
+    font-size: 2rem;
+    padding: 0.2rem 0.5rem;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 720px) {
+  .thanx-text h1 {
+    font-size: 3.5rem;
+    margin-top: 10%;
+  }
+
+  .thanx-text h3 {
+    margin: 2rem;
+    font-size: 1.75rem;
+  }
+
+  .thanx-text .btn {
+    font-size: 2rem;
+    padding: 0.2rem 0.5rem;
+    width: 200px;
+  }
+}
