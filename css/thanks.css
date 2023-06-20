@@ -56,6 +56,33 @@ body {
   background: #167ce9;
 }
 
+/*Footer*/
+
+#footeer{  
+  margin-top: 2%;
+  position: absolute;
+  min-width: 100%;
+}
+
+#footeer p {
+  background: transparent;
+  color: #fff;
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 0.8rem;
+  margin: 0;
+  text-align: center;
+
+}
+
+footeer a {
+  text-decoration: none;
+}
+
+footeer a:hover {
+  text-decoration: none;
+}
+
+
 @media screen and (min-width: 360px) and (max-width: 414px) {
   .thanx-text h1 {
     font-size: 4rem;
